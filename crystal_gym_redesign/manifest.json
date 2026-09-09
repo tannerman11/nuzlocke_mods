@@ -1,0 +1,22 @@
+{
+  "id": "crystal_gym_redesign",
+  "name": "Crystal Gym Leader Overhaul",
+  "version": "1.0.0",
+  "entry": "main.lua",
+  "api": 2,
+  "category": "GAMEPLAY",
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "priority": 100,
+  "permissions": [
+    "engine_internals"
+  ],
+  "dependencies": [],
+  "optional_dependencies": [],
+  "conflicts": [],
+  "description": "Overhauls all 8 Johto Gym Leader teams to 5 Pokémon each with strictly audited Gen 2 level-up movesets.",
+  "game": [
+    "crystal"
+  ],
+  "gen2compat": true,
+  "gen1compat": false
+}

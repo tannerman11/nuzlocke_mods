@@ -1,0 +1,22 @@
+-- Sharing metadata. Read by tooling and the manager detail pane; never by the loader's merge.
+return {
+  summary = "Overhauls all 8 Johto Gym Leader teams to 5 Pokemon each with strictly audited Gen 2 level-up movesets.",
+  author = "YourName",
+  contact = "https://github.com/yourrepo/crystal-mods",
+  tags = { "gyms", "trainers", "difficulty", "overhaul", "battle" },
+  differences = {
+    changed = {
+      "trainer party rosters, levels, items, and move pools for Falkner, Bugsy, Whitney, Morty, Chuck, Jasmine, Pryce, and Clair",
+    },
+    added = {
+      "5-Pokemon party rosters for all 8 Gym Leaders with accurate Gen 2 level-up move verification",
+    },
+    known = {
+      "all added moves are strictly audited against Gen 2 level-up tables up to each Pokemon's assigned level",
+    },
+  },
+  credits = {
+    { who = "pret/pokecrystal", for_ = "vanilla trainer IDs and party structure schemas" },
+  },
+  compat = { engine = ">=1.0.0 <2.0.0", modApi = 2 },
+}

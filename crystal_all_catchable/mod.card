@@ -1,0 +1,23 @@
+-- Sharing metadata. Read by tooling and the manager detail pane; never by the loader's merge.
+return {
+  summary = "Injects 23 missing, version-exclusive, and Kanto-locked base-form Pokemon into pre-E4 Johto wild routes.",
+  author = "YourName",
+  contact = "https://github.com/yourrepo/crystal-mods",
+  tags = { "wild", "encounters", "catch-em-all", "johto", "pre-e4" },
+  differences = {
+    changed = {
+      "wild encounter tables across Johto routes to include post-game and version-exclusive base species",
+    },
+    added = {
+      "pre-E4 wild availability for Mareep, Larvitar, Houndour, Misdreavus, Snorlax, Gen 1 fossils, and Odd Egg species",
+    },
+    known = {
+      "starters, mythicals, and legendaries remain untouched in their original game states",
+      "evolved forms and trade evolutions must be raised naturally from base forms",
+    },
+  },
+  credits = {
+    { who = "pret/pokecrystal", for_ = "vanilla encounter table definitions and route mapping" },
+  },
+  compat = { engine = ">=1.0.0 <2.0.0", modApi = 2 },
+}

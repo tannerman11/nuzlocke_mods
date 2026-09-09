@@ -1,0 +1,22 @@
+-- Sharing metadata. Read by tooling and the manager detail pane; never by the loader's merge.
+return {
+  summary = "Converts all 10 trade-only evolutions into single-player accessible level-up or item evolutions.",
+  author = "YourName",
+  contact = "https://github.com/yourrepo/crystal-mods",
+  tags = { "evolution", "trade", "qol", "singleplayer", "mechanic" },
+  differences = {
+    changed = {
+      "evolution requirements for Haunter, Machoke, Graveler, Kadabra, Onix, Scyther, Poliwhirl, Slowpoke, Seadra, and Porygon",
+    },
+    added = {
+      "level-up evolution triggers removing the need for trade cables or secondary save files",
+    },
+    known = {
+      "item-based evolutions like Steelix and Scizor require leveling up while holding their respective evolution items",
+    },
+  },
+  credits = {
+    { who = "pret/pokecrystal", for_ = "vanilla evolution data structures and species constants" },
+  },
+  compat = { engine = ">=1.0.0 <2.0.0", modApi = 2 },
+}

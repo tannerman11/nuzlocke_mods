@@ -1,0 +1,22 @@
+{
+  "id": "crystal_trade_evos",
+  "name": "Crystal Trade Evolutions",
+  "version": "1.0.0",
+  "entry": "main.lua",
+  "api": 2,
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "category": "GAMEPLAY",
+  "priority": 100,
+  "permissions": [
+    "engine_internals"
+  ],
+  "dependencies": [],
+  "optional_dependencies": [],
+  "conflicts": [],
+  "description": "Converts 10 trade-locked evolution lines into level-up and item-based evolutions for single-player play.",
+  "game": [
+    "crystal"
+  ],
+  "gen2compat": true,
+  "gen1compat": false
+}

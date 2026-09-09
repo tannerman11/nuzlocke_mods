@@ -1,0 +1,22 @@
+{
+  "id": "crystal_all_catchable",
+  "name": "Crystal Base Form Encounters",
+  "version": "1.0.0",
+  "entry": "main.lua",
+  "api": 2,
+  "category": "GAMEPLAY",
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "priority": 100,
+  "permissions": [
+    "engine_internals"
+  ],
+  "dependencies": [],
+  "optional_dependencies": [],
+  "conflicts": [],
+  "description": "Injects 23 missing base-form Pokémon into Johto wild encounter tables across grass and water routes.",
+  "game": [
+    "crystal"
+  ],
+  "gen2compat": true,
+  "gen1compat": false
+}
