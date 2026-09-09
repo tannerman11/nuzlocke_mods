@@ -1,6 +1,6 @@
 # Trade Evolutions via Level-Up — Pokémon Crystal Recomp Mod
 
-This mod turns the trade-only evolution chain into level-up or held-item progression. That means the usual generation rules stay intact for the main story, but the missing single-player paths are no longer blocked by a trade requirement.
+This mod keeps the original trade path available while adding the single-player level and held-item route. In other words, the affected families can evolve either by trading or by reaching the listed level and, where needed, carrying the proper held item.
 
 ## Try it
 
@@ -14,22 +14,22 @@ Turn it on with `crystal_trade_evos = true` in the `mods` section of `options.lu
 | Seam | Where |
 |---|---|
 | `content.pokemon:patch` | `main.lua` — modifying species evolution tables directly in the registry |
-| Evolution Triggers | `main.lua` — remapping `EVO_TRADE` to `EVO_LEVEL` and `EVO_HOLD_ITEM` |
+| Evolution Triggers | `main.lua` — keeping the trade row and adding level- or level-plus-item rows |
 
 ## Evolution Changes
 
-| Pokémon | Target Form | Original Method | New Method |
+| Pokémon | Evolution | Original Method | New Method |
 | :--- | :--- | :--- | :--- |
-| **Kadabra** | Alakazam | Trade | Level 36 |
-| **Machoke** | Machamp | Trade | Level 36 |
-| **Graveler** | Golem | Trade | Level 36 |
-| **Haunter** | Gengar | Trade | Level 36 |
-| **Onix** | Steelix | Trade holding Metal Coat | Level up holding Metal Coat |
-| **Scyther** | Scizor | Trade holding Metal Coat | Level up holding Metal Coat |
-| **Poliwhirl** | Politoed | Trade holding King's Rock | Level up holding King's Rock |
-| **Slowpoke** | Slowking | Trade holding King's Rock | Level up holding King's Rock |
-| **Seadra** | Kingdra | Trade holding Dragon Scale | Level up holding Dragon Scale |
-| **Porygon** | Porygon2 | Trade holding Up-Grade | Level up holding Up-Grade |
+| **Kadabra** | Alakazam | Trade or level 36 | Trade or level 36 |
+| **Machoke** | Machamp | Trade or level 36 | Trade or level 36 |
+| **Graveler** | Golem | Trade or level 36 | Trade or level 36 |
+| **Haunter** | Gengar | Trade or level 36 | Trade or level 36 |
+| **Onix** | Steelix | Trade holding Metal Coat or level 30 holding Metal Coat | Trade holding Metal Coat or level 30 holding Metal Coat |
+| **Scyther** | Scizor | Trade holding Metal Coat or level 30 holding Metal Coat | Trade holding Metal Coat or level 30 holding Metal Coat |
+| **Poliwhirl** | Politoed | Trade holding King's Rock or level 30 | Trade holding King's Rock or level 30 |
+| **Slowpoke** | Slowking | Trade holding King's Rock or level 38 holding King's Rock | Trade holding King's Rock or level 38 holding King's Rock |
+| **Seadra** | Kingdra | Trade holding Dragon Scale or level 32 holding Dragon Scale | Trade holding Dragon Scale or level 32 holding Dragon Scale |
+| **Porygon** | Porygon2 | Trade holding Up-Grade or level 30 | Trade holding Up-Grade or level 30 |
 
 ## Credits
 
