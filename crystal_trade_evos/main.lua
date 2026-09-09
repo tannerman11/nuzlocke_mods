@@ -33,18 +33,21 @@ return function(mod)
   mod.content.pokemon:patch("ONIX", {
     evolutions = {
       { method = "EVOLVE_TRADE", item = "METAL_COAT", into = "STEELIX" },
+      { method = "EVOLVE_LEVEL", level = 30, into = "STEELIX" },
     }
   })
 
   mod.content.pokemon:patch("SCYTHER", {
     evolutions = {
       { method = "EVOLVE_TRADE", item = "METAL_COAT", into = "SCIZOR" },
+      { method = "EVOLVE_LEVEL", level = 30, into = "SCIZOR" },
     }
   })
 
   mod.content.pokemon:patch("SEADRA", {
     evolutions = {
       { method = "EVOLVE_TRADE", item = "DRAGON_SCALE", into = "KINGDRA" },
+      { method = "EVOLVE_LEVEL", level = 32, into = "KINGDRA" },
     }
   })
 
@@ -52,6 +55,7 @@ return function(mod)
     evolutions = {
       { method = "EVOLVE_TRADE", item = "KINGS_ROCK", into = "SLOWKING" },
       { method = "EVOLVE_LEVEL", level = 37, into = "SLOWBRO" },
+      { method = "EVOLVE_LEVEL", level = 38, into = "SLOWKING" },
     }
   })
 
@@ -59,12 +63,14 @@ return function(mod)
     evolutions = {
       { method = "EVOLVE_ITEM", item = "WATER_STONE", into = "POLIWRATH" },
       { method = "EVOLVE_TRADE", item = "KINGS_ROCK", into = "POLITOED" },
+      { method = "EVOLVE_LEVEL", level = 30, into = "POLITOED" },
     }
   })
 
   mod.content.pokemon:patch("PORYGON", {
     evolutions = {
       { method = "EVOLVE_TRADE", item = "UP_GRADE", into = "PORYGON2" },
+      { method = "EVOLVE_LEVEL", level = 30, into = "PORYGON2" },
     }
   })
 end
